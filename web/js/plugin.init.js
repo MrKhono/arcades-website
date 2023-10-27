@@ -59,16 +59,6 @@ $('.video-play-icon').magnificPopup({
     removalDelay: 160,
     preloader: false,
     fixedContentPos: false,
-    iframe:{
-        patterns:{
-          youtube:{
-          index: 'youtube.com',
-          id: 'v=',
-          src: 'https://www.youtube.com/embed/%id%'
-        },
-      },
-      srcAction:'iframe_src',
-    },
 });
 // aos.init.js
 AOS.init({
